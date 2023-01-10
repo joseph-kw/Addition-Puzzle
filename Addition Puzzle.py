@@ -1,4 +1,4 @@
-# Q1: Get the number
+# Get the number
 def get_num(string,mapping):
     output = 0
     for i in string:
@@ -6,7 +6,7 @@ def get_num(string,mapping):
         output += mapping[i]
     return output
 
-# Q2: Checking a Solution
+# Checking a Solution
 def check_puzzle(*args):
     strT = ''
     words = []
@@ -32,7 +32,7 @@ def check_puzzle(*args):
         return True
     return False
 
-# Q3: Solving the puzzle
+# Solving the puzzle
 def addition_puzzle(*args):
     lst = []
     for i in args:
@@ -48,5 +48,6 @@ def addition_puzzle(*args):
                 return d1
     return False
 
+# Trial Test 1
 print(addition_puzzle('AND','MAN','COOL'))
 
